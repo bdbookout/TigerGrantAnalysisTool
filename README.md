@@ -1,5 +1,10 @@
 # TigerGrantAnalysisTool
 ShinyApp and associated files 
+
+The Tiger Grant Interactive analysis app is hosted here:
+
+https://bbookout.shinyapps.io/TigerGrant/
+
 A Shiny dashboard analysis of trends in how TIGER infrastructure grants have been awarded, based on political color of the state.   Data sources include the Department of Transportation, Senate.gov, House.gov and the US Census bureau.
 
 DEPENDENCIES:
@@ -17,6 +22,6 @@ app.R:   the Shiny app.  Documentation is available on the Shiny apps website to
 
 NewStartupScript.R: This script reads data from .csv files, cleans it, and outputs .RData files for the app.
 
-.csv files:  raw data files used in the analysis
+.csv files:  raw data files and interim output of the NewStartupScript that cleans and shapes the data for analysis.
 
-RData files:   Output from the startup script.  These are datatables that are read by app.r.  
+RData files:   Output from the startup script.  These are the datatables that are read by app.r.  
