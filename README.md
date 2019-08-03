@@ -1,4 +1,4 @@
-# TigerGrantAnalysisTool
+# Tiger Grant Analysis Tool
 ShinyApp and associated data files 
 
 The Tiger Grant Interactive analysis app is hosted here:
